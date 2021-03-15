@@ -1,0 +1,43 @@
+
+$subtitle-font: white;
+$normal-font: #AEAEAE;
+$white-font: #fff;
+$light-bg: #181818;
+$dark-bg: #111111;
+
+
+@font-face{
+    font-family: "Proxima Nova Soft";
+    font-style: normal;
+    font-weight: regular;
+    src: url(../fonts/PROXIMA-NOVA-SOFT.OTF);
+  }
+  
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+    font-family: "Proxima Nova Soft";
+    margin: 0;
+    background-color: $dark-bg;
+  }
+  
+  /* code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  } */
+  
+
+@import "../components/Hero/hero.scss";
+
+@import "../components/section2/section2.scss";
+
+@import "../components/section3/section3.scss";
+
+@import "../components/section4/section4.scss";
+
+@import "../components/section5/section5.scss";
+
+@import "../components/footer/footer.scss";
+
+

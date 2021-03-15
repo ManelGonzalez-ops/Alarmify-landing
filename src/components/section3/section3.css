@@ -1,0 +1,10 @@
+.container__section3 .image__container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container__section3 .image__container img {
+  max-width: 100%;
+  height: auto;
+  object-fit: scale-down;
+}

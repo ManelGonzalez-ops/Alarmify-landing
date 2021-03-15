@@ -1,0 +1,124 @@
+
+.container__section2{
+    margin: 5px;
+    margin-bottom: 5rem;
+    padding-top: 5rem;
+    &.extra{
+        margin-bottom: 8rem;
+    }
+}
+
+.header__section2{
+    text-align: center;
+    margin-bottom: 4em;
+    padding: 1rem;
+    h2{
+        margin-top: 0;
+        font-size: 3rem;
+        color: $white-font;
+        margin: 0.5rem;
+        line-height: 1.1em;
+    }
+
+    p{
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        color: $normal-font;
+    }
+}
+
+@media(min-width: 500px){
+    .header__section2{
+        padding-left: calc(50vw/5);
+        padding-right: calc(50vw/5);
+
+    }
+}
+@media(min-width: 800px){
+    .header__section2{
+        padding-left: calc(50vw/2.5);
+        padding-right: calc(50vw/2.5);
+
+        &.special{
+        padding-left: calc(50vw/2.3);
+        padding-right: calc(50vw/2.3);
+        }
+    }
+}
+
+
+
+
+
+.grid__icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    column-gap: 1em;
+    row-gap: 2em;
+    .icon__unit{
+        text-align: center;
+        h4{
+            color: $subtitle-font;
+            margin: 0.5em;
+        }
+        p{margin-top: 0.7em;
+            color: $normal-font;
+           line-height: 1.25rem;
+        }
+        .svg-spotify{
+            height: 50px;
+        }
+        .svg-bateria{
+            position: relative;
+            top: 5px;
+        }
+    }
+}
+@media (min-width: 600px){
+    .grid__icons{
+        row-gap: 3.5em;
+        .icon__unit{
+    
+            p{
+                width: 70%;
+                margin: 0 auto;
+            }
+            
+        }
+    }
+}
+@media (min-width: 1100px){
+    .grid__icons{
+       
+        .icon__unit{
+    
+            p{
+                width: 60%;
+                margin: 0 auto;
+            }
+            
+        }
+    }
+}
+
+
+@media(min-width: 500px){
+    .grid__icons{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width: 800px){
+    .grid__icons{
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+}
+
+@media(min-width: 1000px){
+    .grid__icons{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

@@ -1,0 +1,215 @@
+.hero__section {
+  background-color: #111111;
+  padding: 1.2rem;
+  padding-top: 3em;
+  padding-bottom: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero__section .big-hero__img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  opacity: 0.7;
+  filter: blur(2px);
+}
+
+.hero__section .hero__container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero__section .hero__container header {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.hero__section .hero__container header img {
+  height: 60px;
+  border-radius: 15px;
+  margin-right: 0.5em;
+}
+
+.hero__section .hero__container header h3 {
+  color: #1ED759;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.hero__section .hero__container h1 {
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  line-height: 1.1em;
+}
+
+.hero__section .hero__container p {
+  color: #AEAEAE;
+  font-size: 1.4rem;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 7rem;
+}
+
+.hero__section .hero__container .logo__apple {
+  height: 50px;
+  margin-bottom: 5rem;
+}
+
+@media (min-width: 500px) {
+  .hero__section {
+    padding-right: 2rem;
+    padding-left: 3rem;
+  }
+}
+
+@media (min-width: 550px) {
+  .hero__section {
+    padding-right: 2rem;
+    padding-left: 3rem;
+  }
+  .hero__section .hero__container p {
+    width: 80%;
+  }
+}
+
+@media (min-width: 800px) {
+  .hero__section .hero__container {
+    margin-left: 5%;
+  }
+  .hero__section .hero__container p {
+    width: 60%;
+  }
+  .hero__section .hero__container h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 1040px) {
+  .hero__section {
+    display: flex;
+    padding: 3em;
+    padding-bottom: 0;
+  }
+  .hero__section .hero__container {
+    width: 60vw;
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 2em;
+  }
+  .hero__section .hero__container p {
+    width: 80%;
+  }
+  .hero__section .hero__container h1 {
+    width: 95%;
+    font-size: 4rem;
+  }
+  .hero__section .big-hero__img {
+    display: unset;
+    margin-right: 10%;
+    width: 30%;
+    object-fit: contain;
+    order: 2;
+    position: static;
+    filter: none;
+    opacity: 1;
+  }
+}
+
+@media (min-width: 1340px) {
+  .hero__section .big-hero__img {
+    display: unset;
+    margin-right: 10%;
+    height: 100%;
+    object-fit: contain;
+    order: 2;
+    position: static;
+    filter: none;
+    opacity: 1;
+  }
+}
+
+.band__container {
+  height: 22vh;
+  background-color: #181818;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.band__container .icon__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.band__container .icon__wrapper .salesforce__svg {
+  width: 110px;
+}
+
+.band__container .icon__wrapper .svg__apple {
+  width: 40px;
+}
+
+.band__container .icon__wrapper .svg__cnet {
+  width: 60px;
+}
+
+@media (min-width: 500px) {
+  .band__container {
+    height: 22vh;
+    background-color: #181818;
+  }
+  .band__container .icon__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+  }
+  .band__container .icon__wrapper .salesforce__svg {
+    width: 150px;
+    margin: 0.5em;
+  }
+  .band__container .icon__wrapper .svg__apple {
+    width: 40px;
+    margin: 0.5em;
+  }
+  .band__container .icon__wrapper .svg__cnet {
+    width: 60px;
+    margin: 0.5em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .band__container {
+    height: 22.5vh;
+    background-color: #181818;
+  }
+  .band__container .icon__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+  }
+  .band__container .icon__wrapper .salesforce__svg {
+    width: 140px;
+  }
+  .band__container .icon__wrapper .svg__apple {
+    width: 50px;
+  }
+  .band__container .icon__wrapper .svg__cnet {
+    width: 75px;
+    position: relative;
+    top: 5px;
+  }
+}

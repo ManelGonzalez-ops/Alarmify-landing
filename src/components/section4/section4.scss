@@ -1,0 +1,130 @@
+.container__section4{
+    margin-bottom: 5rem;
+
+    .grid__section4{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 2em;
+
+        .grid4__unit{
+            text-align: center;
+            width: 90%;
+            margin: 0 auto;
+            .svg-estrellas{
+                width: 200px;
+            }
+
+            h3{
+                color: $subtitle-font;
+                
+                margin: 0.6em;
+            }
+
+            cite{
+                color: $normal-font;
+                line-height: 1.1rem;
+                line-height: 1.4rem;
+            }
+
+            h5{
+                color: $normal-font;
+                font-size: 0.9em;
+                opacity: 0.5;
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+@media (min-width: 400px){
+    .container__section4{
+        padding-left: calc(20vw/6) ;
+        padding-right: calc(20vw/6) ;
+    
+    .grid__section4{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2rem;
+        .grid4__unit{
+            .svg-estrellas{
+                width: 120px;
+            }
+            cite{
+                width: 80%;
+                margin: 0 auto;
+                .icun{
+                    font-style: normal;
+                }
+            }
+            h3{
+                color: $subtitle-font;
+                font-size: 1.2rem;
+                margin: 0.6em;
+            }
+    
+        }
+    }
+}
+}
+
+@media (min-width: 1000px){
+
+    .container__section4{
+        padding-left: calc(20vw/1.5) ;
+        padding-right: calc(20vw/1.5) ;
+        
+    
+    .grid__section4{
+        box-sizing: border-box;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 4em ;
+        column-gap: 2em;
+        .grid4__unit{
+          
+            cite{
+                width: 75%;
+                margin: 0 auto;
+                
+            }
+            .svg-estrellas{
+                width: 150px;
+            }
+            h3{
+                font-size: 1.8rem;
+                margin-top: 0.75rem;
+                margin-bottom: 0.5rem;
+            }
+        }
+        
+    }
+    
+}
+}
+
+.header__section4{
+    text-align: center;
+    margin-bottom: 5rem;
+    padding: 1rem;
+
+    h2{
+        font-size: 3rem;
+        color: $white-font;
+        margin-bottom: 1rem;
+    }
+
+    p{
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        color: $normal-font;
+    }
+}
+
+@media(min-width: 500px){
+    .header__section4{
+        
+    }
+}
+@media(min-width: 800px){
+    .header__section4{
+        
+    }
+}
